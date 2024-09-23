@@ -1,0 +1,26 @@
+{   "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "build",
+            "command": "g++",
+            "args": [
+                "-g",
+                "main.cpp",
+                "union_find.cpp",
+                "-o",
+                "union"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译生成可执行文件"
+        }
+    ]
+    
+}

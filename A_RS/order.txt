@@ -1,0 +1,1 @@
+python3 yolov8_tflite.py --model yolov8n_full_integer_quant.tflite --img test_1.mp4 -e /usr/lib/libvx_delegate.so
